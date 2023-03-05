@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- fontawesome icons  -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- style -->
+  <link rel="stylesheet" href="style.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="container">
+    <div class="search-box">
+      <i class='bx bxs-edit-location'></i>
+      <input type="text" name="country" id="country" placeholder="enter your country">
+      <button>
+        <i class='bx bx-search'></i>
+      </button>
+    </div>
+    <div class="weather">
+      <div class="image">
+        <img >
+      </div>
+      <div class="temperature">
+        <h1 class="temperature__digit"></h1>
+        <h3 class="temperature__description">Loading...</h3>
+        <div class="details">
+          <div class="details__item humidity">
+            <i class='bx bx-cloud-rain'></i>
+            <div class="description__details">
+              <h4 class="description__humidity"></h4>
+              <h4 class="description__title">Humidity</h4>
+            </div>
+          </div>
+          <div class="details__item wind">
+            <i class='bx bx-cloud-rain'></i>
+            <div class="description__details">
+              <h4 class="description__wind"></h4>
+              <h4 class="description__title">Wind</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
